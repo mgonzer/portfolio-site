@@ -1,0 +1,324 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 150px;
+  padding-top: 30px;
+}
+
+.App-header {
+  /*background: #5f6f63;*/
+  height: 100px;
+  padding: 1px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  z-index: 99;
+}
+
+.Title{
+  color: #222;
+  margin-top: -20px;
+}
+
+.list{
+  list-style: none;
+  font-size: .7em;
+  margin-top: -5px;
+}
+
+li{
+  display: inline-block;
+  padding: 3em 3em 3em 10px;
+  color: #C2574A;
+  text-decoration: none;
+}
+
+.listItem, .listItem:visited, .listItem:active {
+  color: #C2574A;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 2px;
+}
+
+.listItem:hover {
+  color: #CED0CE;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.heroImage {
+  height: 400px;
+}
+
+.smallImage {
+  height: 200px;
+}
+
+.mattGonzer {
+  /*background: linear-gradient(to bottom right, #E6E8E6, #CED0CE);*/
+  /*margin-top: -40px;*/
+  padding: 200px 0 0 0;
+  height: 400px;
+}
+
+.mg {
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: #5F6F63;
+  font-size: 2.5em;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.fullStack {
+  margin-top: 0;
+  margin-bottom: 10em;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 5px;
+  color: #C2574A;
+}
+
+.about {
+  height: 400px;
+  background: #9FB8AD;
+}
+.portfolioTitle {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 25px;
+  font-size: 2em;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.projectsContainer {
+  margin: 0 5% 0 5%;
+  background: #9FB8AD;
+  border-style: solid;
+  border-width: .8px;
+}
+
+/*@media (max-width: 1100px) {
+    #projectInfo {
+      display: block;
+      text-align: center !important;
+      position: inherit !important;
+      font-size: 1.5em;
+      width: 80% !important;
+      padding: 1% 2% !important;
+      margin: auto !important;
+
+
+    }
+
+    .image1 {
+      float: none !important;
+      margin: auto !important;
+    }
+
+    .projectBox2 {
+      height: auto !important;
+    }
+
+    .projectBox {
+      height: auto !important;
+    }
+
+    .project {
+      width: auto !important;
+    }
+
+    .footer {
+      margin-top: 25% !important;
+    }
+
+}*/
+
+@media (max-width: 700px){
+  .list{
+    font-size: .5em !important;
+    margin-top: 10%;
+  }
+
+  li {
+    padding: 10px;
+  }
+
+  .fullStack {
+    font-size: 15px;
+  }
+
+  .mattPhoto {
+    height: 150px !important;
+  }
+
+  #projectInfo {
+    font-size: .5em !important;
+  }
+
+  .project {
+    font-size: .8em !important;
+  }
+
+  .image1 {
+    height: 150px !important;
+  }
+
+  .App-header {
+    height: 100px !important;
+  }
+
+  .App-logo {
+    height: 100px !important;
+  }
+
+  .bio {
+    font-size: .5em !important;
+    padding-bottom: 3% !important;
+    margin-bottom: 25% !important;
+  }
+
+  .footer {
+    margin-top: 5% !important;
+  }
+
+  #contactInfo {
+    font-size: 10px !important;
+  }
+
+  .mg{
+    font-size: 1em;
+  }
+
+  .portfolioTitle {
+    font-size: 1em !important;
+    letter-spacing: normal;
+  }
+
+}
+
+.project {
+  text-align: center;
+  color: black;
+  border-bottom: solid 1px #CED0CE;
+  width: 50%;
+  margin: 2em auto;
+  padding: 1em;
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#projectInfo {
+  text-align: center;
+  width: 70%;
+  font-size: .8em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1.5px;
+  color: black;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.projectBox {
+  padding: 20px;
+  margin-bottom: 1em;
+}
+
+.projectBox2 {
+  height: auto;
+  padding: 20px;
+  margin-bottom: 1em;
+}
+
+/*#infoBox {
+  background-color: white;
+}*/
+
+.image1 {
+  height: 200px;
+  margin-bottom: 1em;
+  transition: height 1s;
+}
+
+.image1:hover {
+  height: 250px;
+  cursor: pointer;
+}
+
+.mattPhoto {
+  height: 320px;
+  filter: grayscale(100%);
+  border-width: thin;
+  border-style: solid;
+  padding: 8px;
+}
+
+.footer {
+  background: #9FB8AD;
+  font-size: 20px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+
+}
+
+#contactInfo {
+
+
+}
+
+.resume {
+  margin-top: 2em;
+}
+
+.resumeButton {
+  width: 30%;
+  padding: .5em;
+  font-size: .5em;
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 2em;
+  background: #5F6F63;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 10em;
+}
+
+
+.resumeButton:hover {
+  background: #9FB8AD;
+  cursor: pointer;
+}
+
+.resumeButton:focus{
+  outline: none;
+}
+
+#contactInfo {
+  text-align: center;
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.bio {
+  color: black;
+  width: 70%;
+  margin: 2% auto;
+  margin-bottom: 5em;
+  padding-bottom: 2em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: .7em;
+}

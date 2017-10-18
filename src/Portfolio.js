@@ -21,7 +21,7 @@ class Portfolio extends Component {
               <Fade bottom delay={2000} duration={1000}>
               <p id="projectInfo">
                 <i>LunaPortal</i> is practice management application built for Wash Park Acupuncture,
-                   an acupuncture clinic that specializes in fertility and womans health. The client needed
+                   an acupuncture clinic that specializes in fertility and women's health. The client needed
                    a way to communicate with patients regarding their diagnosis and treatment plan, as
                    well as a way to share resources specific to their patients health concerns.
                 <br/>
@@ -41,7 +41,7 @@ class Portfolio extends Component {
               <i>Little Helpers</i> is a task/reward tracker app for parents and their children.
                 Parents have the ability to assign a task, worth a certain point value, as well
                 as a reward, worth a certain point value. When a child has completed tasks and
-                accumulated points, they can redeem points for a reward. 
+                accumulated points, they can redeem points for a reward.
               <br/>
               <br/>
               <b>Tech</b>: JavaScript, PostgreSQL, Knex, Node.js, express, Knex, HTML, CSS, Bootstrap</p>

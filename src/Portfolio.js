@@ -3,7 +3,8 @@ import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
 import littlehelpers from './assets/little.png'
 import regxpress from './assets/regxp.png'
 import omw from './assets/omwp.png'
-import lunaPortal from './assets/lunap.png'
+import lunaPortal from './assets/lunap.png';
+import LunaPortal2 from './assets/LP.png'
 
 class Portfolio extends Component {
   render() {
@@ -18,8 +19,11 @@ class Portfolio extends Component {
             <h3 className="project">LunaPortal</h3>
             </Zoom>
             <div id="infoBox">
-              <Fade bottom delay={2000} duration={1000}>
-              <p id="projectInfo">
+              <Zoom duration={2000}>
+              <a target="_blank" href="https://lunaportal.net"><img className="image2" src={LunaPortal2}/></a>
+              </Zoom>
+          <Fade bottom delay={2000} duration={1000}>
+            <p id="projectInfo">
                 <i>LunaPortal</i> is practice management application built for Wash Park Acupuncture,
                    an acupuncture clinic that specializes in fertility and women's health. The client needed
                    a way to communicate with patients regarding their diagnosis and treatment plan, as
@@ -27,7 +31,7 @@ class Portfolio extends Component {
                 <br/>
                 <br/>
                 <b>Tech</b>: JavaScript, Node.js, express, PostgreSQL, Knex, React, Redux, Heroku, bCrypt</p>
-            <a target="_blank" href="https://lunaportal.net"><img className="image1" src={lunaPortal}/></a>
+
             </Fade>
           </div>
           </div>

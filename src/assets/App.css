@@ -45,6 +45,10 @@ li{
   letter-spacing: 2px;
 }
 
+.listItem:focus {
+  font-style: italic;
+}
+
 .listItem:hover {
   color: #CED0CE;
   cursor: pointer;
@@ -91,7 +95,7 @@ li{
 }
 .portfolioTitle {
   margin-top: 5em;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
   font-family: 'Cormorant Garamond', serif;
   letter-spacing: 25px;
   font-size: 2em;
@@ -211,7 +215,7 @@ li{
   color: #5F6F63;
   border-bottom: solid 1px #CED0CE;
   width: 50%;
-  margin: 2em auto;
+  margin: 1.5em auto;
   padding: 1em;
   font-family: 'Cormorant Garamond', serif;
   text-transform: uppercase;
@@ -220,8 +224,8 @@ li{
 
 #projectInfo {
   text-align: center;
-  width: 70%;
-  font-size: .7em;
+  width: 55%;
+  font-size: .5em;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 1.5px;
   color: black;
@@ -250,10 +254,24 @@ li{
   transition: height 1s;
 }
 
+.image2 {
+  height: 400px;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  transition: height 1s;
+}
+
 .image1:hover {
-  height: 250px;
+  height: 350px;
   cursor: pointer;
 }
+/*
+.image2:hover {
+  height: 350px;
+  cursor: pointer;
+}*/
 
 .mattPhoto {
   height: 320px;

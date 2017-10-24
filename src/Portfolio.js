@@ -3,7 +3,6 @@ import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
 import littlehelpers from './assets/LH.png'
 import regxpress from './assets/REG.png'
 import omw from './assets/OMW2.png'
-import lunaPortal from './assets/lunap.png';
 import LunaPortal2 from './assets/LP.png'
 
 class Portfolio extends Component {
